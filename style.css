@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #fff;
+}
+.navbar {
+    width: 100%; /* A navbar szélessége legyen 100% */
+    position: fixed; /* A navbar rögzítése a lap tetején */
+    top: 0; /* A lap tetejére helyezi */
+    left: 0; /* Bal oldalt kezdje */
+    z-index: 1000; /* Magasabb rétegre helyezi a navbar-t */
+    background-color: #fff; /* Háttérszín */
+    padding: 10px 0; /* Kicsi belső margó */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Árnyék */
+}
+.login-container h2 {
+    color: #333;
+}
+
+.login-container .form-control {
+    border-radius: 0.25rem;
+}
+
+.login-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.login-container .btn-primary:hover {
+    background-color: #0056b3;
+}
